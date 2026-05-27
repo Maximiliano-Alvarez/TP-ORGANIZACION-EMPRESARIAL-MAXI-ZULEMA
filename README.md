@@ -10,8 +10,8 @@ Alumnos: Rodriguez Zulema - Alvarez Maximiliano
 ## 1. Estructura Organizacional y Roles 
 Para la ejecución operativa de este Sprint, el equipo se ha estructurado bajo metodologías ágiles, delimitando las responsabilidades funcionales para garantizar el control de procesos:
 
-* **Rodriguez Zulema:** Lider, organizadora y QA del proyecto. Responsable de la planificación en Jira, definición del estándar de datos, revisión por pares (Peer Review) y aprobación de Pull Requests.
-* **Alvarez Maximiliano:** Desarrollador Técnico. Responsable de la lógica algorítmica, adquisición del dataset crudo y programación de los scripts de limpieza y procesamiento analítico en Python.
+* **Rodriguez Zulema:** Responsable de la gobernanza, planificación y gestión organizativa del proyecto. Encargada de la apertura del Sprint en Jira Software, la redacción del `README.md`, la definición de las políticas de seguridad mediante el archivo `.gitignore` y la autorización final de la fusión (`Merge`) del proyecto.
+* **Alvarez Maximiliano:** Responsable de la ejecución técnica y el control de calidad del software. Encargado del dataset climático desde datos.gob.ar, la programación del script analítico en Python dentro de Google Colab, la revisión técnica del código (*Peer Review*) y la auditoría de seguridad para garantizar la inexistencia de datos sensibles.
 
 ---
 
@@ -30,7 +30,7 @@ Las corrientes de entrada de datos se registran en un dataset en formato CSV (`/
 ###  Nota de Control Interno y Auditoría (QA)
 Luego de revisar el archivo de datos del aeropuerto, el área de **QA** constató una restricción técnica: la ausencia de registros íntegros para la variable `Precipitaciones_mm`. Para no generar errores se determinó una acción correctiva inmediata: **excluir dicha variable del procesamiento numérico y focalizar el modelo en las variables térmicas disponibles**. Grantizando la confiabilidad y la integridad estadística del software sin alterar la lógica sistémica del proyecto.
 
-## 🛠️ 3. Guía de Ejecución y Despliegue Local
+## 3. Guía de Ejecución y Despliegue Local
 Para asegurar la compatibilidad del programa y el orden de los archivos en cualquier entorno de ejecución, siga estos pasos:
 
 1. **Clonación del Repositorio:**
